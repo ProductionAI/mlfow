@@ -1,0 +1,15 @@
+artifact_uri: file:///workspace/mlflowJWH/mlruns/829801679277695062/76cf95d3eb6549cda8593f7b8a23d435/artifacts
+end_time: 1740678496372
+entry_point_name: ''
+experiment_id: '829801679277695062'
+lifecycle_stage: active
+run_id: 76cf95d3eb6549cda8593f7b8a23d435
+run_name: apples_rf_test
+run_uuid: 76cf95d3eb6549cda8593f7b8a23d435
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740678493477
+status: 3
+tags: []
+user_id: root

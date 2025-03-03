@@ -1,0 +1,36 @@
+artifact_path: rf_apples
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.0
+is_signature_from_type_hint: false
+mlflow_version: 2.20.3
+model_size_bytes: 614937
+model_uuid: a6299984c9a94a6ca4355a777d6c0ead
+run_id: 76cf95d3eb6549cda8593f7b8a23d435
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "average_temperature", "required": true}, {"type":
+    "double", "name": "rainfall", "required": true}, {"type": "long", "name": "weekend",
+    "required": true}, {"type": "long", "name": "holiday", "required": true}, {"type":
+    "double", "name": "price_per_kg", "required": true}, {"type": "long", "name":
+    "promo", "required": true}, {"type": "double", "name": "previous_days_demand",
+    "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-02-27 17:48:13.528474'
